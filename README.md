@@ -29,4 +29,5 @@ The Point of Sale System employs the following technologies and programming conc
 - Introduction of Common **Point of Sale System Concepts**, including Inventory Management, Sales Processing, and Bill Generation.
 
 ## Licensing
-This project is released under the **MIT License**.
+This project is released under the [MIT License](LICENSE).
+
