@@ -1,0 +1,33 @@
+My Name: Archi Mukeshbhai Kakadiya
+Email: akakadiya1@myseneca.ca
+Student ID: 117470229
+Date: 10/04/2023
+
+Reflection:
+
+- I completed this workshop alone, with the assistance of my professor's code, and by reading the course materials.
+
+- I wrote program of creating POS System by declaring arrays and cStrings, designing structures and accessing text files to read information. I declared functions prototype in PosApp.h like cost, getItems, start, inventory, addItem, removeItem, stockItem, POS, listItems, loadItems and saveItems. I wrote all these functions in PosApp.c file and Used it in main.c file by calling it. One thing that I added new is posdata.csv file which is datafile and opened it in PosApp.c and main.c by using fopen and after reading all items information from it, closed it by using fclose in same source code file.
+
+- I learned how to design and create structures in C Program in Multiple Files and what is the difference between creating it in One File and Multiple Files. I learned to use and pass Array of structures from one function to another by using pointer concept which is very exciting and new for me. I accessed text files to read information so I learned opening and closing of file. I learned to format and display structure information on screen.
+
+
+- If I am describing the saveItems function in descriptive way then it should be written as below:
+
+* 1. The function saveItems is called with a filename argument.
+
+* 2. The start function is called with the string "Saving Items" to indicate the start of the function execution. A file pointer variable file is declared.
+
+* 3. The fopen function is called with the filename argument and "w" mode to open the file for writing.
+
+* 4. If the file pointer is NULL, indicating an error in opening the file, then the printf function is called to print an error message indicating the filename that couldn't be opened, and the function returns without executing further.
+
+* 5. If the file opening was successful, then a for loop is started that iterates from 0 to noOfItems - 1.
+
+* 6. In each iteration of the loop, the fprintf function is called to write the contents of each element in the items array to the file in a comma-separated format, with each record separated from the next one with a new-line character.
+
+* 7. The fclose function is called to close the file.
+
+* 8. The start function is called with the string "Done!" to indicate the end of the function execution.
+
+- I didn't face any issue to complete this workshop as Professor gives one example also and I knew concept of this already. After that, I wrote code by applying professor's method and succeded in it. By doing all these things, I learned so many concepts. For that, A big Thanks to you Fardad.

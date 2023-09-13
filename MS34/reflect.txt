@@ -1,0 +1,27 @@
+My Name: Archi Mukeshbhai Kakadiya
+Email: akakadiya1@myseneca.ca
+Student ID: 117470229
+Date: 12/04/2023
+
+Reflection:
+
+- I completed this workshop alone, with the assistance of my professor's code, and by reading the course materials.
+
+- I wrote program of creating POS System by declaring arrays and cStrings, designing structures and accessing text files to read information. I declared functions prototype in PosApp.h like search, display, billDisplay, cost, getItems, start, inventory, addItem, removeItem, stockItem, POS, listItems, loadItems and saveItems. I wrote all these functions in PosApp.c file and Used it in main.c file by calling it.
+
+- I learned how to design and create structures in C Program in Multiple Files and what is the difference between creating it in One File and Multiple Files. I learned to use and pass Array of structures from one function to another by using pointer concept which is very exciting and new for me. I accessed text files to read information so I learned opening and closing of file. I learned to format and display structure information on screen.
+
+
+- If I am describing the search and main function's process in descriptive way then it should be written as below:
+
+* 1. The program starts by calling the main() function. In main(), the loadItems() function is called to load the items from the "posdata.csv" file into the items array. 
+
+* 2. A loop is started to prompt the user to enter an SKU and search for it in the items array. Inside the loop, the search() function is called to ask the user for an SKU and search for it in the items array.
+
+* 3. Now It is search() function's turn. In search(), the sku character array is initialized and set to all null characters. The user is prompted to enter an SKU and the scanf() function is used to read the input and store it in the sku array, with a maximum length of MAX_SKU_LEN. The flushKey() function is called to clear the input buffer and prevent any leftover characters from causing issues in the next input operation.
+
+* 4. The if statement checks if the user just hit enter without entering any SKU, in which case foundIndex is set to -2 and returned to the main() function. If the user entered an SKU, the for loop iterates through the items array, searching for the entered SKU. The strcmp() function is used to compare the entered SKU with each SKU in the items array. If a match is found, the index of the item holding the SKU is assigned to foundIndex and the for loop is terminated. If no match is found, foundIndex remains -1. Finally, the foundIndex value is returned to the main() function.
+
+* 5. In the main() function, the returned value is checked: if it is -2, the loop is terminated, otherwise, a message is printed indicating whether the SKU was found or not. The loop continues until the user hits enter without entering any SKU. After the loop is terminated, a message is printed indicating how many times the search was executed and the program ends. 
+
+- I didn't face any issue to complete this workshop as I knew concept of this already. After that, I wrote code by applying professor's method and succeded in it. By doing all these things, I learned so many concepts. For that, A big Thanks to you Fardad.
